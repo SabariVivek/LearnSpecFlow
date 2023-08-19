@@ -1,0 +1,6 @@
+﻿Ignoring a test :
+
+	* @Ignore or @ignore is the only tag that is supported by default 
+	  and is translated by "IGNORE" in user test framework of choice especially for NUnit.
+
+	* This is used to ignore the particular scenario/feature from execution.

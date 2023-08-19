@@ -1,0 +1,20 @@
+﻿Tagged Hooks :
+
+	* Tagged hooks are basically a problem solver when user need to perform different hooks actions for different scenarios.
+
+	* To explain in a simpler way, If the user have 5 diff tags like Sanity, UAT, Smoke etc.,
+			which need to be tested with diff URLs. This is where Tagged Hooks help them achieve that.
+
+	* User can use the new scope attribute to specify the tag.
+
+	* User can also specify the tag scoping in the step's attribute constructor.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Syntaxs :
+
+	* [Scope(Tag = "TagName")]
+
+	* [AfterScenario("TagName")] --> This type is not working as expected. Hence, we can go with the above one...
+
+----------------------------------------------------------------------------------------------------------------------------

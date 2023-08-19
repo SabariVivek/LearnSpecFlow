@@ -1,0 +1,35 @@
+﻿# Hooks :
+
+	* Multiple prerequisites are required to start of test execution for most of the times.
+	
+	* Right from setting up the driver, browser settings to cookies, navigate to the specific URL etc.,
+
+	* Similarly, some steps must be perfomed after executing test scenarios, 
+			like quitting driver, 
+			cleaning browser cookies,
+			generating reports etc.,
+
+	* Such cases can be easily handled using one particular type of Speckflow Annotations, namely SpecFlow Hooks.
+
+	* Hooks can be used to perform additional automation logic at specific times.
+
+	* It can be defined anywhere in project or step definition layers.
+
+	* SpecFlow hooks annotations allow user to manager better code workflow and help in reducing code redundancy.
+
+	* Hooks are global, but can be restricted to run only for features or scenarios by defining a scoped binding, 
+			which can be filtered with tags.
+
+	* The execution order of hooks for the same type is undefined, unless specified explicitly.
+
+-------------------------------------------------------------------------------------------------------------------
+
+# Order of the hooks :
+
+	* Lower number has the highest priority.
+	
+	* eg., 10 will execute before 20 or 11.
+
+	* No restriction in numbers.
+
+-------------------------------------------------------------------------------------------------------------------

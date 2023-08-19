@@ -1,0 +1,12 @@
+﻿Test execution based on tags :
+
+	* Define multiple tags at Feature and Scenario level based on requirment for all relevant feature files.
+
+	* Select "Test" Menu and then select "Test Explorer" Option.
+
+	* Run all test first from the SpecFlow Project.
+
+	* Select group by menu in the Test Explorer and then select Traits option to view the execution based on the tags.
+
+	* Now select any tag and run, all relevant scenarios based on selected tag will only execute 
+	  and other filtered will be disabled from execution.

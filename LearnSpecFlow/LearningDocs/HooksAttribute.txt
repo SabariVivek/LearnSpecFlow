@@ -1,0 +1,18 @@
+﻿ _____________________________________________________________________________________________________________________________________________
+|	Attribute												  | Tag Filtering | Description													  |
+|---------------------------------------------------------------------------------------------------------------------------------------------|
+|															  |				  |																  |
+|	[BeforeTestRun]/[AfterTestRun]							  | Not Possible  | It runs before/after the entire test run				      |
+|															  |				  |																  |
+|	[BeforeFeature]/[AfterFeature]							  | Possible      | It runs before/after executing each feature					  |
+|														      |				  |																  |
+|	[BeforeScenario] or [Before]/[AfterScenario] or [After]   | Possible      | It runs before/after executing each scenario/sceario outline  |
+|															  |				  |																  |
+|	[BeforeScenarioBlock]/[AfterScenarioBlock]                | Possible      | It runs before/after executing each scenario block			  |
+|															  |				  |																  |
+|	[BeforeStep]/[AfterStep]                                  | Possible      | It runs before/after each scenario step						  |
+|_____________________________________________________________|_______________|_______________________________________________________________|
+
+
+Note : Content provided in the [BeforeTestRun]/[AfterTestRun] and [BeforeFeature]/[AfterFeature] won't be display in the console.
+	   Eg., if we provide the print statements, it won't get displayed in console, but it will execute.
